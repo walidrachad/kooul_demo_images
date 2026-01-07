@@ -1,0 +1,279 @@
+{
+  "data": [
+    {
+      "id": "size-group",
+      "title": "Choose your size",
+      "subtitle": "Select one option",
+      "is_required": true,
+      "selection_type": "singleSelection",
+      "display_type": "list",
+      "options": [
+        {
+          "id": "size-small",
+          "label": "Small",
+          "price": 0
+        },
+        {
+          "id": "size-medium",
+          "label": "Medium",
+          "price": 5
+        },
+        {
+          "id": "size-large",
+          "label": "Large",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "drink-type-group",
+      "title": "Choose drink type",
+      "subtitle": "Select one option",
+      "is_required": true,
+      "selection_type": "singleSelection",
+      "display_type": "list",
+      "options": [
+        {
+          "id": "drink-hot",
+          "label": "Hot Drink",
+          "price": 0,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400",
+            "medium": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400",
+            "large": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400"
+          }
+        },
+        {
+          "id": "drink-cold",
+          "label": "Cold Drink",
+          "price": 0,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400",
+            "medium": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400",
+            "large": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400"
+          }
+        },
+        {
+          "id": "drink-juice",
+          "label": "Fresh Juice",
+          "price": 5,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400",
+            "medium": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400",
+            "large": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sauce-group",
+      "title": "Choose your sauce",
+      "subtitle": "Select one",
+      "is_required": true,
+      "selection_type": "singleSelection",
+      "display_type": "grid",
+      "options": [
+        {
+          "id": "sauce-ketchup",
+          "label": "Ketchup",
+          "price": 0,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1632130666451-c60c66d2ca31?w=400",
+            "medium": "https://images.unsplash.com/photo-1632130666451-c60c66d2ca31?w=400",
+            "large": "https://images.unsplash.com/photo-1632130666451-c60c66d2ca31?w=400"
+          }
+        },
+        {
+          "id": "sauce-mayo",
+          "label": "Mayonnaise",
+          "price": 0,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1623341975933-8f2b993e4615?w=400",
+            "medium": "https://images.unsplash.com/photo-1623341975933-8f2b993e4615?w=400",
+            "large": "https://images.unsplash.com/photo-1623341975933-8f2b993e4615?w=400"
+          }
+        },
+        {
+          "id": "sauce-bbq",
+          "label": "BBQ",
+          "price": 2,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1603116257107-d9a4bc65e5f7?w=400",
+            "medium": "https://images.unsplash.com/photo-1603116257107-d9a4bc65e5f7?w=400",
+            "large": "https://images.unsplash.com/photo-1603116257107-d9a4bc65e5f7?w=400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "extras-group",
+      "title": "Add extras",
+      "subtitle": "Choose up to 4 items",
+      "is_required": false,
+      "selection_type": "multipleSelection",
+      "display_type": "list",
+      "options": [
+        {
+          "id": "extra-cheese",
+          "label": "Extra Cheese",
+          "price": 8
+        },
+        {
+          "id": "extra-bacon",
+          "label": "Bacon",
+          "price": 12
+        }
+      ]
+    },
+    {
+      "id": "sides-group",
+      "title": "Add sides",
+      "subtitle": "Complete your meal",
+      "is_required": false,
+      "selection_type": "multipleSelection",
+      "display_type": "list",
+      "options": [
+        {
+          "id": "side-fries",
+          "label": "French Fries",
+          "price": 10,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400",
+            "medium": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400",
+            "large": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400"
+          }
+        },
+        {
+          "id": "side-salad",
+          "label": "Garden Salad",
+          "price": 12,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400",
+            "medium": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400",
+            "large": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "toppings-group",
+      "title": "Choose toppings",
+      "subtitle": "Pick your favorites",
+      "is_required": false,
+      "selection_type": "multipleSelection",
+      "display_type": "grid",
+      "options": [
+        {
+          "id": "topping-pepperoni",
+          "label": "Pepperoni",
+          "price": 10,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400",
+            "medium": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400",
+            "large": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400"
+          }
+        },
+        {
+          "id": "topping-olives",
+          "label": "Olives",
+          "price": 6,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1611181422903-a6033907e4c0?w=400",
+            "medium": "https://images.unsplash.com/photo-1611181422903-a6033907e4c0?w=400",
+            "large": "https://images.unsplash.com/photo-1611181422903-a6033907e4c0?w=400"
+          }
+        },
+        {
+          "id": "topping-peppers",
+          "label": "Peppers",
+          "price": 7,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=400",
+            "medium": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=400",
+            "large": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "drinks-group",
+      "title": "Add drinks",
+      "subtitle": "Choose your drinks",
+      "is_required": false,
+      "selection_type": "multipleWithQuantity",
+      "display_type": "list",
+      "options": [
+        {
+          "id": "drink-cola",
+          "label": "Cola",
+          "price": 5
+        },
+        {
+          "id": "drink-water",
+          "label": "Water",
+          "price": 3
+        }
+      ]
+    },
+    {
+      "id": "beverages-group",
+      "title": "Add beverages",
+      "subtitle": "How many would you like?",
+      "is_required": false,
+      "selection_type": "multipleWithQuantity",
+      "display_type": "list",
+      "options": [
+        {
+          "id": "beverage-coffee",
+          "label": "Coffee",
+          "price": 8,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+            "medium": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+            "large": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400"
+          }
+        },
+        {
+          "id": "beverage-tea",
+          "label": "Tea",
+          "price": 6,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=400",
+            "medium": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=400",
+            "large": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "desserts-group",
+      "title": "Add desserts",
+      "subtitle": "How many would you like?",
+      "is_required": false,
+      "selection_type": "multipleWithQuantity",
+      "display_type": "grid",
+      "options": [
+        {
+          "id": "dessert-cake",
+          "label": "Chocolate Cake",
+          "price": 15,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400",
+            "medium": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400",
+            "large": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
+          }
+        },
+        {
+          "id": "dessert-icecream",
+          "label": "Ice Cream",
+          "price": 12,
+          "image": {
+            "small": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400",
+            "medium": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400",
+            "large": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+          }
+        }
+      ]
+    }
+  ]
+}
